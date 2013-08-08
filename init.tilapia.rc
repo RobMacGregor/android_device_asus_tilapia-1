@@ -33,7 +33,7 @@ on fs
     mkdir /factory 0775 radio radio
 
     setprop ro.crypto.umount_sd false
-    mount_all /fstab.grouper
+    mount_all /fstab.tilapia
 
 on post-fs-data
     mkdir /data/misc/wifi 0770 wifi wifi
